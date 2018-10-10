@@ -1,11 +1,11 @@
 # Site settings
 author: Heather Miller
-title: 
+title: Heather Learns to Code
 header-img: img/home-bg.png
 email: heather.miller114@gmail.com
 copyright_name: Heather Miller
 description: > # this means to ignore newlines until "baseurl:"
-  
+  ...and a bunch of other stuff too
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  heathermiller114
