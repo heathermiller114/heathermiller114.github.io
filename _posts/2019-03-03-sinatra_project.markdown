@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Project"
-date:       2019-03-04 02:08:36 +0000
+date:       2019-03-03 21:08:37 -0500
 permalink:  sinatra_project
 ---
 
@@ -42,5 +42,6 @@ belongs_to :books
 end
 ```
 I chose this set of associations instead because this created the association within a join table (along with advice from a technical coach). By creating this table, we allow the option for modifications, validations or extra attributes within that join table, if necessary, that we would not have as easily if we went with the first option. Starting at the very beginning of a project, we have no idea how far our project will go, and what we might need it to do in the future. Because of this unknown, it's easier to spend a little more time when setting up associations by just going with the has_many :through from the beginning, so you won't have to worry about going all the way back to the start months/years from now and redesigning the associations when you need it to have another function. <br><br>
+In the current state of my project, I am not utilizing the full function of the join table that I have, but I have the foundation set up that I can add additional features to my app easily, and whenever I want. <br><br>
 This project was a lot of fun, while frustrating at times, but I'm excited to move forward and dive into the world of Rails!
 
